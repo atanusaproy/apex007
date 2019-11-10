@@ -1,0 +1,168 @@
+{% load static %}
+<!doctype html>
+<html class="no-js" lang="">
+
+<!-- Mirrored from themesitem.com/demos/html/rosui/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 May 2019 19:35:19 GMT -->
+<head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title> Rosui Resturent </title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="apple-touch-icon" href="apple-touch-icon.html">
+      <!-- Place favicon.ico in the root directory -->
+      <link rel="stylesheet" href="{% static 'static_home/css/normalize.css' %}">
+      <link rel="stylesheet" href="{% static 'static_home/css/bootstrap.min.css' %}">
+      <link rel="stylesheet" href="{% static 'static_home/css/font-awesome.min.css' %}">
+      <link rel="stylesheet" href="{% static 'static_home/css/component.css' %}">
+      <link rel="stylesheet" href="{% static 'static_home/css/slick.css' %}">
+      <link rel="stylesheet" href="{% static 'static_home/css/scroll.css' %}">
+      <link rel="stylesheet" href="{% static 'static_home/css/jquery-ui.css' %}">
+      <link rel="stylesheet" href="{% static 'static_home/css/main.css' %}">
+      <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Raleway:400,700" rel="stylesheet">
+   </head>
+   <body>
+      <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+      <div id="pre-loader">
+         <img src="{% static 'static_home/images/preloader.gif' %}" alt="">
+      </div>
+      <a class="totop"><i class="fa fa-angle-double-up"></i></a>
+      <!-- end of top -->
+      <header id="header_top">
+         <div class="container">
+            <div class="row hdrtop_row flato">
+               <div class="col-sm-8  hdrtop_leftcol">
+                  <p class="ptagm0">
+                     Welcome to Rosui
+                  </p>
+               </div>
+               <div class="col-sm-4  text-right hdrtop_rightcol">
+                  <ul class="list-inline hdrright_list">
+<!--                     <li><a href="#"><i class="fa fa fa-phone"></i> +012 3456789</a></li>-->
+<!--                     <li><a href="#"><i class="fa fa fa-envelope"></i> contact@rosui.com</a></li>-->
+                     {% if request.user.is_authenticated %}
+                        <li><a href="/login">Hi! {{ request.user.first_name }} |</a></li>
+                     {% else %}
+                        <li><a href="/login">login |</a></li>
+                     {% endif %}
+                       <li><a href="/logout">| logout</a></li>
+
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end of header_top -->
+      <nav class="navbar navbar-default ">
+         <div class="container-fluid main_nav">
+            <div class="container">
+               <div class="row">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="col-sm-2">
+                     <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                        <a class="logo_part" href="index.html"> <img src="{% static 'static_home/images/logo.png' %}" alt="logo-img"></a>
+                     </div>
+                  </div>
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="col-sm-7">
+                     <div class="collapse row navbar-collapse main_ul" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav text-center">
+                           <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-hover="Home">Home <span class="caret"></span></a>
+                              <ul class="dropdown-menu maindrop_menu">
+                                 <li><a href="{% static 'static_home/index_video.html' %}">Homepage Video</a></li>
+                              </ul>
+                           </li>
+                           <li><a href="#aboutsec_full" data-hover="About">About</a></li>
+                           <li><a href="#reserve_full" data-hover="Reservation">Reservation</a></li>
+                           <li><a href="#team_full" data-hover="Team">Team</a></li>
+                           <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-hover="Blog">Blog <span class="caret"></span></a>
+                              <ul class="dropdown-menu maindrop_menu">
+                                 <li><a href="{% static 'static_home/blog.html' %}">blog full-width</a></li>
+                                 <li role="separator" class="divider"></li>
+                                 <li><a href="{% static 'static_home/blog_leftsidebar.html' %}">blog sidebar-left</a></li>
+                                 <li role="separator" class="divider"></li>
+                                 <li><a href="{% static 'static_home/blog_rightsidebar.html' %}">blog sidebar-right</a></li>
+                              </ul>
+                           </li>
+                           <li><a href="#full_footer" data-hover="Contact Us">Contact Us</a></li>
+                        </ul>
+                     </div>
+                  </div>
+
+                  <div class="col-sm-3 menu_right">
+                     <ul class="list-inline text-right">
+                        <li>
+                           <form action="#" class="searchfield">
+                              <button type="submit" class="submit"><i class="fa fa-search"></i></button>
+                              <input type="text" class="form-control">
+                           </form>
+                        </li>
+                        <li>
+                           <i class="fa fa-shopping-bag"></i>
+                           <span class="cart_num">02</span>
+                           <div class="cart_drop">
+                              <ul class="cart_dropdown">
+                                 <li>
+                                    <h5>You have <span> 02 items </span> in your shopping bag</h5>
+                                 </li>
+                                 <li>
+                                    <a href="#">
+                                    <img src="{% static 'static_home/images/cart01.jpg' %}" class="img-responsive" alt="">
+                                    </a>
+                                    <div class="cart_dtls frailway">
+                                       <p>Chicken Noodles</p>
+                                       <span>Price : $20.00</span>
+                                       <span>Qty : 02</span>
+                                    </div>
+                                    <div class="cart_close">
+                                       <i class="fa fa-close"></i>
+                                    </div>
+                                 </li>
+                                 <li>
+                                    <a href="#">
+                                    <img src="{% static 'static_home/images/cart01.jpg' %}" class="img-responsive" alt="">
+                                    </a>
+                                    <div class="cart_dtls frailway">
+                                       <p>Chicken Noodles</p>
+                                       <span>Price : $20.00</span>
+                                       <span>Qty : 02</span>
+                                    </div>
+                                    <div class="cart_close">
+                                       <i class="fa fa-close"></i>
+                                    </div>
+                                 </li>
+                                 <li>
+                                    <div class="total_amount flato">
+                                       <span class="pull-left">total</span>
+                                       <span class="pull-right">$62.00</span>
+                                       <div class="clearfix"></div>
+                                    </div>
+                                 </li>
+                                 <li>
+                                    <div class="main_btn">
+                                       <a href="cart.html">view cart</a>
+                                       <a href="checkout.html">ceheckout</a>
+                                    </div>
+                                 </li>
+                              </ul>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+                  <!-- /.navbar-collapse -->
+               </div>
+            </div>
+         </div>
+         <!-- /.container-fluid -->
+      </nav>
+      <!-- navbar end -->
