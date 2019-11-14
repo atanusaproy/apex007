@@ -1,1 +1,1 @@
-from .product import ProductDetails
+from .manage_index import Manage
