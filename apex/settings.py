@@ -84,12 +84,18 @@ WSGI_APPLICATION = 'apex.wsgi.application'
 # }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': "apex",
-        'USER': "root",
-        'PASSWORD': "",
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
+        # 'ENGINE': 'django.db.backends.mysql',
+        # 'NAME': "apex",
+        # 'USER': "root",
+        # 'PASSWORD': "",
+        # 'HOST': '127.0.0.1',
+        # 'PORT': '3306',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': "dbepk0j3d3885",
+        'USER': "wrolihooefwghf",
+        'PASSWORD': "8f851e24a722da01461910fe4c7e1085164b44d546cb5c6bde10724fac333360",
+        'HOST': 'ec2-107-21-110-75.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
