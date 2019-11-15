@@ -25,7 +25,7 @@ SECRET_KEY = 'of0-54%bx8fa(v)#c%r0&+iua$rrqk*kqu$($hf0+x4q3hvv-0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["@https://whispering-coast-47816.herokuapp.com", "127.0.0.1"]
+ALLOWED_HOSTS = ["https://whispering-coast-47816.herokuapp.com", "127.0.0.1", "*"]
 
 # Application definition
 
