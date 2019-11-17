@@ -78,7 +78,11 @@
 
 					<div class="flex-c-m">
 						<a href="#" class="login100-social-item bg1">
-							<i class="fa fa-facebook"></i>
+
+						<fb:login-button
+						  scope="public_profile,email"
+						  onlogin="checkLoginState();">
+						</fb:login-button>
 						</a>
 
 						<a href="#" class="login100-social-item bg2">
@@ -153,5 +157,43 @@
 	});
 </script>
 
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '563809124164292',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v5.0'
+    });
+
+    FB.AppEvents.logPageView();
+
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<script>
+
+FB.getLoginStatus(function(response) {
+	alert(response);
+	console.log(response);
+    statusChangeCallback(response);
+});
+
+function checkLoginState() {
+  FB.getLoginStatus(function(response) {
+  	alert(response);
+	console.log(response);
+    statusChangeCallback(response);
+  });
+}
+
+</script>
 </body>
 </html>
