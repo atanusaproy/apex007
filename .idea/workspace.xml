@@ -4,14 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/product/models/product.py" description="from django.db import models&#10;&#10;class Product(models..." line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c581c9b7-5016-4e1a-8c8e-f80bd7e5fc33" name="Default Changelist" comment="">
+    <list default="true" id="c581c9b7-5016-4e1a-8c8e-f80bd7e5fc33" name="Default Changelist" comment="backend commit done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/templates/manage_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/templates/manage_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/backend/backend_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/backend/backend_template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/backend/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/backend/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/backend/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/backend/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/backend/script.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/backend/script.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/backend/side.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/backend/side.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/apex/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/aaa/a1.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,56 +20,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/backend/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="764">
-              <caret line="78" column="47" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/backend/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            <state relative-caret-position="247">
+              <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/backend/backend_template.html">
+        <entry file="file://$PROJECT_DIR$/apex_app/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="1885">
+              <caret line="197" column="7" selection-start-line="197" selection-start-column="7" selection-end-line="197" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/templates/manage_index.html">
+        <entry file="file://$PROJECT_DIR$/apex/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/backend/side.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/material-dashboard-master/examples/tables.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7100">
-              <caret line="127" column="19" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
+            <state relative-caret-position="391">
+              <caret line="105" column="5" lean-forward="true" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -103,6 +72,7 @@
       <find>../assets/</find>
       <find>sidebar-4.jpg</find>
       <find>card</find>
+      <find>debug</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -154,14 +124,14 @@
         <option value="$PROJECT_DIR$/backend/views/manage_index.py" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/apex/settings.py" />
         <option value="$PROJECT_DIR$/apex_app/templates/login.html" />
         <option value="$PROJECT_DIR$/templates/backend/side.html" />
         <option value="$PROJECT_DIR$/backend/templates/manage_index.html" />
         <option value="$PROJECT_DIR$/templates/backend/script.html" />
         <option value="$PROJECT_DIR$/templates/backend/backend_template.html" />
-        <option value="$PROJECT_DIR$/templates/backend/footer.html" />
         <option value="$PROJECT_DIR$/templates/backend/header.html" />
+        <option value="$PROJECT_DIR$/templates/backend/footer.html" />
+        <option value="$PROJECT_DIR$/apex/settings.py" />
       </list>
     </option>
   </component>
@@ -188,35 +158,12 @@
             <path>
               <item name="apex" type="b2602c69:ProjectViewProjectNode" />
               <item name="apex" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="apex" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="apex" type="b2602c69:ProjectViewProjectNode" />
               <item name="apex" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apex" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apex" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apex" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="apex_app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apex" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -350,7 +297,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573973092174</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="backend commit done .">
+      <created>1574259689630</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1574259689630</updated>
+    </task>
+    <task id="LOCAL-00015" summary="backend commit done">
+      <created>1574261343251</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1574261343251</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -384,18 +345,18 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49526814" visible="true" weight="0.17864272" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49526814" visible="true" weight="0.17864272" />
       <window_info id="Structure" order="1" sideWeight="0.50473183" side_tool="true" weight="0.17864272" />
       <window_info id="Favorites" order="2" sideWeight="0.50473183" side_tool="true" weight="0.17864272" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.42880523" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.42880523" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -449,7 +410,9 @@
     <MESSAGE value="Heroku Database Updated" />
     <MESSAGE value="Allowed Host Done" />
     <MESSAGE value="Facebook login button given" />
-    <option name="LAST_COMMIT_MESSAGE" value="Facebook login button given" />
+    <MESSAGE value="backend commit done ." />
+    <MESSAGE value="backend commit done" />
+    <option name="LAST_COMMIT_MESSAGE" value="backend commit done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -660,13 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apex/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="27" column="81" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -707,13 +663,6 @@
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apex_app/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="197" column="7" selection-start-line="197" selection-start-column="7" selection-end-line="197" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -775,17 +724,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/backend/side.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/apex_app/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="74" lean-forward="true" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+        <state relative-caret-position="272">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/templates/manage_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="-401">
           <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/backend/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -796,24 +759,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/backend/side.html">
+    <entry file="file://$PROJECT_DIR$/apex/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="391">
+          <caret line="105" column="5" lean-forward="true" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apex_app/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1885">
+          <caret line="197" column="7" selection-start-line="197" selection-start-column="7" selection-end-line="197" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/backend/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
-          <caret line="78" column="47" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/backend/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        <state relative-caret-position="247">
+          <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
         </state>
       </provider>
     </entry>
