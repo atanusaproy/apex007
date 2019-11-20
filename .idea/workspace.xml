@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/product/models/product.py" description="from django.db import models&#10;&#10;class Product(models..." line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c581c9b7-5016-4e1a-8c8e-f80bd7e5fc33" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c581c9b7-5016-4e1a-8c8e-f80bd7e5fc33" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,16 +20,25 @@
         <entry file="file://$PROJECT_DIR$/templates/backend/footer.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="22" column="26" lean-forward="true" selection-end-line="107" selection-end-column="8" />
+              <caret line="22" column="26" selection-end-line="107" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/templates/manage_index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="350" selection-start-line="350" selection-end-line="350" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/templates/manage_index.html">
+        <entry file="file://$PROJECT_DIR$/backend/static/static_backend/css/material-dashboard.css.map">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="45" />
+            <state relative-caret-position="34">
+              <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -49,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/templates/backend/backend_template.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -58,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/templates/backend/side.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="33" lean-forward="true" selection-end-line="73" selection-end-column="10" />
+              <caret line="17" column="33" selection-end-line="73" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -355,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574261806938</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="backend commit done">
+      <created>1574267615864</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1574267615864</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -369,9 +383,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49526814" visible="true" weight="0.19361277" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49526814" visible="true" weight="0.19361277" />
       <window_info id="Structure" order="1" sideWeight="0.50473183" side_tool="true" weight="0.17864272" />
       <window_info id="Favorites" order="2" sideWeight="0.50473183" side_tool="true" weight="0.17864272" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -381,7 +394,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.499002" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.499002" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.42880523" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
@@ -485,13 +498,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/py 18 aug/django-ecommerce-master/django-ecommerce-master/docc_projetc/ecomm/product/templates/products.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7452">
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/py 18 aug/django-ecommerce-master/django-ecommerce-master/docc_projetc/ecomm/product/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -793,21 +799,21 @@
     <entry file="file://$PROJECT_DIR$/templates/backend/side.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="33" lean-forward="true" selection-end-line="73" selection-end-column="10" />
+          <caret line="17" column="33" selection-end-line="73" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/backend/backend_template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/backend/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" column="26" lean-forward="true" selection-end-line="107" selection-end-column="8" />
+          <caret line="22" column="26" selection-end-line="107" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -820,8 +826,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/templates/manage_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="45" />
+        <state relative-caret-position="131">
+          <caret line="350" selection-start-line="350" selection-end-line="350" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/static/static_backend/css/material-dashboard.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
         </state>
       </provider>
     </entry>
