@@ -1,12 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% include 'backend/header.html' %}
 
-</body>
+{% include 'backend/side.html' %}
 
 
-</html>
+{% block content %}
+
+
+
+
+{% endblock %}
+
+
+
+{% include 'backend/footer.html' %}
+
+
+{% block script %}
+
+{% include 'backend/script.html' %}
+
+{% endblock %}
+
+
