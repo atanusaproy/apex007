@@ -5,8 +5,459 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c581c9b7-5016-4e1a-8c8e-f80bd7e5fc33" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/backend/backend_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/backend/headmenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/backend/nav_bar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/backend/preloder.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/css/material-dashboard-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/css/material-dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/css/material-dashboard.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/css/material-dashboard.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/demo/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/demo/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/Macbook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/angular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/apple-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/ex1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/ex2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/ex3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/faces/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/faces/card-profile1-square.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/faces/card-profile2-square.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/faces/marc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/iPad2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/imac1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/iphonex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/mask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/new_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/react.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/sidebar-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/sidebar-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/sidebar-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/sidebar-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/table.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/img/vue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/core/bootstrap-material-design.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/core/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/core/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/material-dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/material-dashboard.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/material-dashboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/plugins/arrive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/plugins/bootstrap-datetimepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/plugins/bootstrap-notify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/plugins/bootstrap-selectpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/plugins/bootstrap-tagsinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/plugins/chartist.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/plugins/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/plugins/jasny-bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/plugins/jquery-jvectormap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/plugins/jquery.bootstrap-wizard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/plugins/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/plugins/jquery.tagsinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/plugins/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/plugins/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/plugins/nouislider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/plugins/perfect-scrollbar.jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/js/plugins/sweetalert2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_cards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_checkboxes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_core-bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_example-pages.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_fixed-plugin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_footers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_headers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_info-areas.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_misc.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_popups.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_radios.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_ripples.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_sidebar-and-main-panel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_social-buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_tabs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_togglebutton.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_navbar-align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_text-hide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_screenreaders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/cards/_card-plain.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/cards/_card-profile.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/cards/_card-stats.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/mixins/_animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/mixins/_chartist.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/mixins/_colored-shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/mixins/_drawer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/mixins/_layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/mixins/_navbar-colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/mixins/_navs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/mixins/_sidebar-color.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/mixins/_transparency.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/mixins/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/mixins/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/mixins/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/mixins/_vendor-prefixes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/plugins/_animate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/plugins/_chartist.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/plugins/_perfect-scrollbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_body.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_bootstrap-material-design-base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_bootstrap-material-design.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_brand.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_colors-map.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_drawer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_menu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_modals.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_snackbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_state.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/static/static_backend/scss/material-dashboard/variables/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/templates/manage_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/templates/manage_index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/templates/not_eligible.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/templates/not_eligible.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/templates/not_eligible.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/not_eligible.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/css/material-dashboard-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/css/material-dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/css/material-dashboard.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/css/material-dashboard.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/demo/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/demo/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/Macbook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/angular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/apple-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/ex1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/ex2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/ex3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/faces/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/faces/card-profile1-square.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/faces/card-profile2-square.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/faces/marc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/iPad2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/imac1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/iphonex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/mask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/new_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/react.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/sidebar-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/sidebar-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/sidebar-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/sidebar-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/table.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/img/vue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/core/bootstrap-material-design.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/core/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/core/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/material-dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/material-dashboard.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/material-dashboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/plugins/arrive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/plugins/bootstrap-datetimepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/plugins/bootstrap-notify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/plugins/bootstrap-selectpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/plugins/bootstrap-tagsinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/plugins/chartist.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/plugins/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/plugins/jasny-bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/plugins/jquery-jvectormap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/plugins/jquery.bootstrap-wizard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/plugins/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/plugins/jquery.tagsinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/plugins/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/plugins/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/plugins/nouislider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/plugins/perfect-scrollbar.jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/js/plugins/sweetalert2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_cards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_checkboxes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_core-bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_example-pages.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_fixed-plugin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_footers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_headers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_info-areas.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_misc.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_popups.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_radios.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_ripples.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_sidebar-and-main-panel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_social-buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_tabs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_togglebutton.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_navbar-align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_text-hide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/mixins/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_screenreaders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/bootstrap/scss/utilities/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/cards/_card-plain.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/cards/_card-profile.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/cards/_card-stats.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/mixins/_animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/mixins/_chartist.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/mixins/_colored-shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/mixins/_drawer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/mixins/_layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/mixins/_navbar-colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/mixins/_navs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/mixins/_sidebar-color.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/mixins/_transparency.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/mixins/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/mixins/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/mixins/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/mixins/_vendor-prefixes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/plugins/_animate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/plugins/_chartist.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/plugins/_perfect-scrollbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_body.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_bootstrap-material-design-base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_bootstrap-material-design.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_brand.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_colors-map.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_drawer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_menu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_modals.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_snackbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_state.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_backend/scss/material-dashboard/variables/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/backend/backend_template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/backend/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/backend/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/backend/script.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/backend/script.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/backend/side.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,12 +469,39 @@
     <favorites_list name="apex" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/templates/not_eligible.html">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/apex_app/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="112" selection-start-line="112" selection-end-line="112" />
+            <state relative-caret-position="272">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/apex_app/home_templates.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/backend/backend_index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/backend/preloder.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -62,11 +540,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/apex_app/models.py" />
-        <option value="$PROJECT_DIR$/apex_app/models/postdata.py" />
-        <option value="$PROJECT_DIR$/apex_app/models/__init__.py" />
-        <option value="$PROJECT_DIR$/apex_app/views/homepage.py" />
-        <option value="$PROJECT_DIR$/apex_app/views/login.py" />
         <option value="$PROJECT_DIR$/apex_app/views/__init__.py" />
         <option value="$PROJECT_DIR$/apex_app/urls.py" />
         <option value="$PROJECT_DIR$/apex_app/views/registration.py" />
@@ -83,7 +556,6 @@
         <option value="$PROJECT_DIR$/backend/templates/product.html" />
         <option value="$USER_HOME$/Desktop/htmllogin/index.html" />
         <option value="$PROJECT_DIR$/apex_app/templates/homepage.html" />
-        <option value="$PROJECT_DIR$/product/templates/not_eligible.html" />
         <option value="$PROJECT_DIR$/product/templates/location.html" />
         <option value="$PROJECT_DIR$/product/views/__init__.py" />
         <option value="$PROJECT_DIR$/product/urls.py" />
@@ -105,14 +577,20 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/apex_app/templates/login.html" />
         <option value="$PROJECT_DIR$/templates/backend/side.html" />
-        <option value="$PROJECT_DIR$/templates/backend/script.html" />
         <option value="$PROJECT_DIR$/templates/backend/backend_template.html" />
         <option value="$PROJECT_DIR$/templates/backend/footer.html" />
         <option value="$PROJECT_DIR$/apex/settings.py" />
         <option value="$PROJECT_DIR$/templates/backend/header.html" />
-        <option value="$PROJECT_DIR$/backend/templates/manage_index.html" />
         <option value="$PROJECT_DIR$/backend/static/403forbidden/style.html" />
         <option value="$PROJECT_DIR$/backend/templates/not_eligible.html" />
+        <option value="$PROJECT_DIR$/product/templates/not_eligible.html" />
+        <option value="$USER_HOME$/Desktop/datta-lite/index.html" />
+        <option value="$PROJECT_DIR$/templates/backend/nav_bar.html" />
+        <option value="$PROJECT_DIR$/templates/backend/headmenu.html" />
+        <option value="$PROJECT_DIR$/templates/backend/script.html" />
+        <option value="$PROJECT_DIR$/templates/backend/backend_index.html" />
+        <option value="$PROJECT_DIR$/backend/templates/manage_index.html" />
+        <option value="$PROJECT_DIR$/templates/backend/preloder.html" />
       </list>
     </option>
   </component>
@@ -129,13 +607,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="apex" type="b2602c69:ProjectViewProjectNode" />
               <item name="apex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apex" type="462c0819:PsiDirectoryNode" />
+              <item name="apex_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apex" type="462c0819:PsiDirectoryNode" />
+              <item name="apex_app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="apex" type="b2602c69:ProjectViewProjectNode" />
@@ -154,10 +642,28 @@
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="apex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apex" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apex" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="apex_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apex" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,7 +833,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574267902553</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="backend commit done">
+      <created>1574321570468</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1574321570468</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -343,7 +856,7 @@
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49526814" visible="true" weight="0.19361277" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49526814" weight="0.19361277" />
       <window_info id="Structure" order="1" sideWeight="0.50473183" side_tool="true" weight="0.17864272" />
       <window_info id="Favorites" order="2" sideWeight="0.50473183" side_tool="true" weight="0.17864272" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -362,7 +875,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49526814" visible="true" weight="0.17864272" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49526814" visible="true" weight="0.19361277" />
       <window_info id="Structure" order="1" sideWeight="0.50473183" side_tool="true" weight="0.17864272" />
       <window_info id="Favorites" order="2" sideWeight="0.50473183" side_tool="true" weight="0.17864272" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -372,8 +885,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.42880523" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.499002" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.42880523" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -457,42 +970,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/py 18 aug/django-ecommerce-master/django-ecommerce-master/docc_projetc/ecomm/product/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/py 18 aug/django-ecommerce-master/django-ecommerce-master/docc_projetc/ecomm/product/views/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/py 18 aug/django-ecommerce-master/django-ecommerce-master/docc_projetc/ecomm/product/views/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/py 18 aug/django-ecommerce-master/django-ecommerce-master/docc_projetc/ecomm/admin_backend/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/py 18 aug/django-ecommerce-master/django-ecommerce-master/docc_projetc/ecomm/admin_backend/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/py 18 aug/django-ecommerce-master/django-ecommerce-master/docc_projetc/ecomm/admin_backend/views/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/py 18 aug/django-ecommerce-master/django-ecommerce-master/docc_projetc/ecomm/admin_backend/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/py 18 aug/django-ecommerce-master/django-ecommerce-master/docc_projetc/ecomm/admin_backend/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/py 18 aug/django-ecommerce-master/django-ecommerce-master/docc_projetc/ecomm/admin_backend/templates/product_upload.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -558,13 +1035,6 @@
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/templates/product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-906">
-          <caret line="65" column="71" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -690,34 +1160,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/apex_app/home_templates.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apex_app/templates/homepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9945">
-          <caret line="591" selection-start-line="591" selection-end-line="591" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/material-dashboard-master/examples/tables.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7100">
-          <caret line="127" column="19" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/apex_app/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/material-dashboard-master/examples/tables.html" />
     <entry file="file://$PROJECT_DIR$/apex/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1785">
@@ -729,13 +1172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-25">
           <caret line="180" column="8" lean-forward="true" selection-start-line="180" selection-start-column="8" selection-end-line="180" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/backend/script.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="48" selection-end-line="216" />
         </state>
       </provider>
     </entry>
@@ -767,13 +1203,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/templates/manage_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="350" selection-start-line="350" selection-end-line="350" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/backend/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -781,17 +1210,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/static/403forbidden/style.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/backend/static/403forbidden/style.html" />
+    <entry file="file://$PROJECT_DIR$/product/templates/not_eligible.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/templates/not_eligible.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        <state relative-caret-position="441">
+          <caret line="127" column="33" selection-start-line="127" selection-start-column="33" selection-end-line="127" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/datta-lite/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="10346" selection-start-line="10346" selection-end-line="10346" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/datta-lite/assets/plugins/bootstrap/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/datta-lite/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="863" column="47" lean-forward="true" selection-end-line="875" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/backend/headmenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="117" column="27" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/backend/nav_bar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/templates/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="71" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apex_app/templates/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9712">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/templates/manage_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="592" selection-start-line="592" selection-end-line="592" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/backend/script.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/apex_app/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/apex_app/home_templates.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/backend/backend_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/backend/preloder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
