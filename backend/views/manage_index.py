@@ -1,10 +1,12 @@
 from django.views.generic import View
 from django.shortcuts import render, redirect
 from django.http import HttpResponse,JsonResponse
+from product.models import Product as ProductTable
 
 class Manage(View):
     def get(self, request):
-        return render(request, 'manage_index.html')
+        productlist = ProductTable.objects.all()
+        return render(request, 'manage_index.html', {'productlist' : productlist})
         # return HttpResponse("hello")
 
     def post(self, request):

@@ -44,4 +44,5 @@ class ProductUpload(View):
 
 
 
-        return JsonResponse({'type': 'success', 'data': file_name})
+        # return JsonResponse({'type': 'success', 'data': pname})
+        return render(request, 'product.html')
