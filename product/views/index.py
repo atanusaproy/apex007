@@ -17,6 +17,8 @@ class ProductUpload(View):
         file_name = ""
         pname = request.POST['pname']
         ptype = request.POST['ptype']
+        pdesc = request.POST['desc']
+        pavil = request.POST['avail']
 
         fileimg = request.FILES['xfile']
         name_split = fileimg.name.split('.')
@@ -30,6 +32,8 @@ class ProductUpload(View):
         product_table.name = pname
         product_table.type = ptype
         product_table.image = filename
+        product_table.description = pdesc
+        product_table.availability = pavil
         product_table.save()
 
         # file_name = file_name + "<br>" + str(i) + ") File Name :- " + fls.url(ff)
