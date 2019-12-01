@@ -33,7 +33,7 @@ class ProductUpload(View):
         product_table.type = ptype
         product_table.image = filename
         product_table.description = pdesc
-        # product_table.availability = pavil
+        product_table.availability = pavil
         product_table.save()
 
         # file_name = file_name + "<br>" + str(i) + ") File Name :- " + fls.url(ff)
