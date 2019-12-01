@@ -188,6 +188,27 @@
   	console.log("Got Facebook Response Starts");
   	console.log(response);
   	console.log("Got Facebook Response Ends");
+	var csrftoken = jQuery("[name=csrfmiddlewaretoken]").val();
+	$.ajax({
+		type: 'POST',
+		url: "{% url 'fblogin' %}",
+		data: {
+			'csrfmiddlewaretoken':csrftoken,
+			'fbdetails':response
+		},
+		success: function(data){
+			console.log(data);
+			if(data.type == "success"){
+				alert(data.message);
+			}else{
+				alert(data.message);
+			}
+		},
+		error: function(error){
+			console.log(error);
+			alert(error.responseText);
+		}
+	});
   }
 
   (function(d, s, id){

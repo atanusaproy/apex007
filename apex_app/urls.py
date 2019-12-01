@@ -14,4 +14,5 @@ urlpatterns = [
     path('login', views.Login.as_view(), name="login"),
     path('registration', views.Regis.as_view(), name="registration"),
     path('logout', views.Logout.as_view(), name="logout"),
+    path('fblogin', views.FBLogin.as_view(), name="fblogin"),
 ]
