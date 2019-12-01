@@ -6,3 +6,4 @@ class Product(models.Model):
     description = models.TextField(null=True)
     image = models.CharField(max_length=255, null=True)
     availability = models.BooleanField(null=False, default=1)
+    status = models.IntegerField(default=0, choices=STATUS)
