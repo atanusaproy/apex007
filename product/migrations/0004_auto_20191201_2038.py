@@ -13,6 +13,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='product',
             name='availability',
-            field=models.BigIntegerField(default=0, max_length=255),
+            field=models.CharField(default=0, max_length=255),
         ),
     ]
