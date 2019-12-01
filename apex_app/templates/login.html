@@ -168,7 +168,27 @@
 
     FB.AppEvents.logPageView();
 
+    FB.getLoginStatus(function(response) {
+		alert(response);
+		console.log(response);
+		statusChangeCallback(response);
+	});
+
+	function checkLoginState() {
+	  FB.getLoginStatus(function(response) {
+		alert(response);
+		console.log(response);
+		statusChangeCallback(response);
+	  });
+	}
+
   };
+
+  function statusChangeCallback(response){
+  	console.log("Got Facebook Response Starts");
+  	console.log(response);
+  	console.log("Got Facebook Response Ends");
+  }
 
   (function(d, s, id){
      var js, fjs = d.getElementsByTagName(s)[0];
@@ -180,19 +200,7 @@
 </script>
 <script>
 
-FB.getLoginStatus(function(response) {
-	alert(response);
-	console.log(response);
-    statusChangeCallback(response);
-});
 
-function checkLoginState() {
-  FB.getLoginStatus(function(response) {
-  	alert(response);
-	console.log(response);
-    statusChangeCallback(response);
-  });
-}
 
 </script>
 </body>

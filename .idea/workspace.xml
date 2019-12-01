@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c581c9b7-5016-4e1a-8c8e-f80bd7e5fc33" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apex/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/apex/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex_app/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/apex_app/templates/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,11 +48,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apex/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apex_app/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="499">
+              <caret line="189" column="43" selection-start-line="189" selection-start-column="43" selection-end-line="189" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -90,6 +98,7 @@
       <find>butt</find>
       <find>https</find>
       <find>bootstrap.min.css</find>
+      <find>statusChangeCallback</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,7 +137,6 @@
         <option value="F:/study/My_study/Technology/python/html templates/material-dashboard-master/examples/dashboard.html" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/apex_app/templates/login.html" />
         <option value="$PROJECT_DIR$/templates/backend/side.html" />
         <option value="$PROJECT_DIR$/templates/backend/backend_template.html" />
         <option value="$PROJECT_DIR$/templates/backend/footer.html" />
@@ -149,6 +157,7 @@
         <option value="$PROJECT_DIR$/backend/templates/manage_index.html" />
         <option value="$PROJECT_DIR$/backend/views/manage_index.py" />
         <option value="$PROJECT_DIR$/apex/settings.py" />
+        <option value="$PROJECT_DIR$/apex_app/templates/login.html" />
       </list>
     </option>
   </component>
@@ -176,7 +185,13 @@
             <path>
               <item name="apex" type="b2602c69:ProjectViewProjectNode" />
               <item name="apex" type="462c0819:PsiDirectoryNode" />
+              <item name="apex_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apex" type="b2602c69:ProjectViewProjectNode" />
               <item name="apex" type="462c0819:PsiDirectoryNode" />
+              <item name="apex_app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -408,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575177365176</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="ProductTable">
+      <created>1575177454381</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1575177454381</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -424,7 +446,7 @@
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49526814" visible="true" weight="0.19261476" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49526814" visible="true" weight="0.19261476" />
       <window_info id="Structure" order="1" sideWeight="0.50473183" side_tool="true" weight="0.17864272" />
       <window_info id="Favorites" order="2" sideWeight="0.50473183" side_tool="true" weight="0.17864272" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -434,7 +456,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.499002" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.499002" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.42880523" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
@@ -694,13 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apex_app/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="182" column="38" lean-forward="true" selection-start-line="182" selection-start-column="38" selection-end-line="182" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apex_app/views/homepage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -846,6 +861,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apex_app/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="189" column="43" selection-start-line="189" selection-start-column="43" selection-end-line="189" selection-end-column="43" />
         </state>
       </provider>
     </entry>
