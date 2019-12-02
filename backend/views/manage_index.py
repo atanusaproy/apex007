@@ -5,7 +5,7 @@ from product.models import Product as ProductTable
 
 class Manage(View):
     def get(self, request):
-        productlist = ProductTable.objects.filter(type="Chinese")
+        productlist = ProductTable.objects.all()
         return render(request, 'manage_index.html', {'productlist' : productlist})
         # return HttpResponse("hello")
 
