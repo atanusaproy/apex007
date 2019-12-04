@@ -5,6 +5,8 @@ from django.core.files.storage import FileSystemStorage
 from ..models import Product as ProductTable
 from datetime import datetime
 import time
+from django.contrib import messages
+
 
 class ProductUpload(View):
     def get(self, request):
@@ -28,13 +30,18 @@ class ProductUpload(View):
         filename = str(time.time())+"."+extension
         ff = fls.save("UploadedFiles/" + filename, fileimg)
 
-        product_table = ProductTable()
-        product_table.name = pname
-        product_table.type = ptype
-        product_table.image = filename
-        product_table.description = pdesc
-        product_table.availability = pavil
-        product_table.save()
+        if ProductTable.objects.filter(name=pname).exists():
+          messages.error(request, 'Product exist')
+          # return render(request,'product.html',{'Exist Product please upload another.'})
+          return JsonResponse({'Type': 'Error', 'data': pname +' '+'is exist please try another'})
+        else:
+            product_table = ProductTable()
+            product_table.name = pname
+            product_table.type = ptype
+            product_table.image = filename
+            product_table.description = pdesc
+            product_table.availability = pavil
+            product_table.save()
 
         # file_name = file_name + "<br>" + str(i) + ") File Name :- " + fls.url(ff)
 
@@ -49,4 +56,4 @@ class ProductUpload(View):
 
 
         # return JsonResponse({'type': 'success', 'data': pname})
-        return render(request, 'product.html')
+            return render(request, 'product.html')
