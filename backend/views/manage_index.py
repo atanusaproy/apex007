@@ -7,7 +7,6 @@ class Manage(View):
     def get(self, request):
         productlist = ProductTable.objects.all()
         return render(request, 'manage_index.html', {'productlist' : productlist})
-        # return HttpResponse("hello")
 
     def post(self, request):
         return JsonResponse("sdfsdfsgss")
