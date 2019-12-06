@@ -16,11 +16,6 @@
                                     <div class="page-header-title">
                                         <h5 class="m-b-10">Bootstrap Basic Tables</h5>
                                     </div>
-                                    <ul class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
-                                        <li class="breadcrumb-item"><a href="#!">Tables</a></li>
-                                        <li class="breadcrumb-item"><a href="javascript:">Basic Tables</a></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -47,6 +42,7 @@
                                         <th>Type</th>
                                         <th>Status</th>
                                         <th>Avilable</th>
+                                        <th>Price(INR)</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
@@ -58,7 +54,8 @@
                                         <td>{{prdct.type}}</td>
                                         <td>{{prdct.status}}</td>
                                         <td>{{prdct.availability}}</td>
-                                        <td>EDIT || ADD</td>
+                                        <td>00.00</td>
+                                        <td><a href="/backend/eproduct">EDIT</a> || <a href="#">ADD</a></td>
                                     </tr>
                                 {% endfor %}
                                 </tbody>
